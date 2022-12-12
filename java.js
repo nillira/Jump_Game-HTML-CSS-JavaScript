@@ -17,7 +17,7 @@ const loop = setInterval(() => {
 
         personagem.style.animation = 'nome';
         personagem.style.left = `${personagemPosition}px`;
-        personagem.src = './image/isa1.gif';
+        personagem.src = 'isa1.gif';
         
         clearInterval(loop);
     }
